@@ -1,0 +1,107 @@
+/* -----------------body Style ---------------------- */
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    grid-template-columns: 300px 500px 300px ;
+    grid-template-rows: 250px 500px 250px ;
+    grid-template-areas:
+    "c b d"
+    "c b d"
+    "c b d" ;
+    background-image: url('https://pluviophile.net/wp-content/uploads/wet-empty-road-wallpaper.jpg');
+    color:rgb(85,107,47);
+
+}
+
+/* ------------------------------------------------- */
+
+
+
+/* --------------------nav bar style----------------- */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color:rgb(85,107,47);
+}
+
+/* ------------------------------------------------- */
+
+
+
+/* ---------------Data display section------------- */
+
+.firstCol{
+  grid-area: c;
+}
+.middlecol{
+  border: rgb(85,107,47) 2px solid;
+  border-radius: 8px;
+  grid-area:b;
+  font-size: 20px;
+  color:black;
+  font-weight: bold;
+
+}
+.lastCol{
+    border: rgb(85,107,47) 2px solid;
+    border-radius: 8px;
+    grid-area: d;
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------- */
+
+
+
+.title{
+  color :rgb(85,107,47);
+}
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color:green;
+    display:block;
+    height: 60px;
+    width: 320px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: 125px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color:rgb(85,107,47);
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border-radius:8px;
+    box-shadow: 2px 4px 5px #444;
+}
