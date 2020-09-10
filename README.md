@@ -13,7 +13,7 @@ by scanning the city name from the user.
 # References that I have used
 
 **Websites** 
-1.[weather API ](https://www.worldweatheronline.com/developer/)
+1.[weather API ]( http://developer.worldweatheronline.com/member/register)
 
 
 # Brief about important files in project
@@ -43,7 +43,7 @@ by scanning the city name from the user.
 
 	1. put all the files in the same folder on the same location
 	2. write "localhost:8080" on web address .
-	3.go to file location from cmd and write "node server.js"
+	3. go to file location from cmd and write "node server.js"
 
 
 ## To make project work
