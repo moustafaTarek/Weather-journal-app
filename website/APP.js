@@ -7,7 +7,7 @@ let URL ='http://api.worldweatheronline.com/premium/v1/weather.ashx?key=';
     If you don't have one, then register now: http://developer.worldweatheronline.com/member/register
 
 */
-let APIkey ='6e04592e261c45c59df174818200609';
+let APIkey =' ';
 
 //variables
 const zipcode   = document.querySelector('#city');
